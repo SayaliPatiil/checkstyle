@@ -17,6 +17,7 @@
             
             var name = anchorItem.childNodes[0].name;
             var link = "" + url + "#" + name + "";
+             var link = "" + url + "#" + name + "";
 
             var a = document.createElement("a");
             a.setAttribute("href", link);
