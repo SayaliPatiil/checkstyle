@@ -13,6 +13,9 @@
         var anchors = document.getElementsByTagName("h2");
         [].forEach.call(anchors, function (anchorItem) {
             var name = anchorItem.childNodes[0].name;
+            
+            
+            var name = anchorItem.childNodes[0].name;
             var link = "" + url + "#" + name + "";
 
             var a = document.createElement("a");
