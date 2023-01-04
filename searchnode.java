@@ -70,7 +70,6 @@ public class SearchNode {
         cl.search(2);  
         //Search for node in the list  
         cl.search(7);
-        System.out.println("Element is not present in the list");  
-        System.out.println("Element is not present in the list");  
+         
     }  
 } 
