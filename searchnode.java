@@ -55,7 +55,7 @@ public class SearchNode {
              if(flag)  
                  System.out.println("Element is present in the list at the position : " + i);  
             else  
-                 System.out.println("Element is not present in the list");  
+                 
         }  
     }  
   
@@ -69,6 +69,8 @@ public class SearchNode {
         //Search for node 2 in the list  
         cl.search(2);  
         //Search for node in the list  
-        cl.search(7);  
+        cl.search(7);
+        System.out.println("Element is not present in the list");  
+        System.out.println("Element is not present in the list");  
     }  
 } 
